@@ -1,0 +1,118 @@
+* {
+    font-family: arial, sans-serif;
+    text-align: center;
+    background-color: #335c5b;
+    padding: 0;
+    height: auto;
+}
+
+.body {
+    margin: 0;
+}
+.wrapper {
+    min-width: 18rem;
+}
+header, img, h1, button, #list ul, footer, .wrapper {
+    max-width: 30rem;
+}
+header img, button, #list, hr {
+    width: 98%;
+}
+header, img, h1, button {
+    margin: 0 auto;
+}
+
+/* header: */
+header {
+    padding: 25px 0 5px 0;
+}
+header img {
+    clear: both;
+    opacity: .4;
+}
+h1 {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    color: white;
+    padding: 45px 0 25px 0;
+    letter-spacing: .11rem;
+}
+
+/* button and list: */
+button {
+    background-color: #001e01;
+    border: 1px dotted greenyellow;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: block;
+    color: white;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+button:hover {
+    background-color: greenyellow;
+    color: black;
+}
+#list {
+    color: black;
+    line-height: 2rem;
+    margin: 20px auto 10px auto;
+    display: block; 
+} 
+#list ul {
+    color: black;
+    line-height: 2rem;
+    margin: 20px auto 10px auto;
+    display: block; 
+}
+#list ul li {
+    list-style-type: none; 
+    margin: 2px auto;
+    text-align: left;
+    padding: 2px 15px;
+    color: green;
+    background-color: lightgrey;
+}
+#list ul li:first-child {
+    border-radius: 5px 5px 0 0;
+}
+#list ul li:last-child {
+    border-radius: 0 0 5px 5px;
+}
+#list ul li:hover {
+    opacity: .5;
+}
+
+/* footer: */ 
+hr {
+    margin: 50px auto 0 auto;
+    opacity: .2;
+}
+footer p, a {
+    color: lightgrey;
+    font-size: .7rem;
+    line-height: 1.25rem;
+    margin: 15px 0 0 0;
+}
+footer a:hover {
+    color: greenyellow;
+}
+footer ul {
+    max-width: 100%;
+}
+footer ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 4px auto 5px auto;
+    padding: 0 9px; 
+}
+footer ul li a {
+    color: lightgrey;
+    font-size: 1.65rem;
+    padding: 0 5px 4px 5px;
+}
+footer ul li a:hover {
+    color: grey;
+}
